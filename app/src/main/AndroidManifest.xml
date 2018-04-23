@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ng.com.donsoft.fitit">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name="ng.com.donsoft.fitit.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ng.com.donsoft.fitit.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ng.com.donsoft.fitit.Home"/>
+        <activity android:name="ng.com.donsoft.fitit.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ng.com.donsoft.fitit.Splash"/>
+        <activity android:name="ng.com.donsoft.fitit.Grid.DetailsActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.ScrollableExerciseTabsActivity"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.ScrollableWorkOutTabsActivity"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.Grid.Exercise_final_dash"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.SearchActivity"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.Grid.Workout_final_dash"
+            android:label="@string/title_activity_scrollable_tabs"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.firebase.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ng.com.donsoft.fitit.SecMainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.firebase.Main"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.firebase.SignupActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.firebase.ResetPasswordActivity"
+            android:label="@string/title_activity_reset_password"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.SettingsActivity"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.BMI_Calculator"
+            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.SettingsActivity2"
+            android:label="@string/title_activity_settings2"/>
+        <activity
+            android:name="ng.com.donsoft.fitit.calendar.CalendarViewActivity"
+            android:label="@string/app_name"/>
+        <activity android:name="ng.com.donsoft.fitit.calendar.CalendarView"/>
+
+        <service
+            android:name="ng.com.donsoft.fitit.FirebasePushService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="ng.com.donsoft.fitit.FirebaseIDService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="ng.com.donsoft.fitit.FititNotifica"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+    </application>
+
+</manifest>

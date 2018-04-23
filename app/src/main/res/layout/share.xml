@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_300sdp"
+    android:orientation="vertical"
+    android:id="@+id/share_root"
+    android:background="@drawable/round_layout"
+
+    android:layout_gravity="center"
+    android:padding="@dimen/_5sdp"
+    android:weightSum="100"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round_layout"
+        android:orientation="vertical"
+        android:padding="@dimen/_7sdp"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:id="@+id/as"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/background_color"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/app_name"
+                    app:srcCompat="@mipmap/logo" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/share_title"
+                    android:layout_gravity="center"
+                    android:text="SHARE OPTION"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_17sdp"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:background="@drawable/roud_layout_white"
+            android:orientation="vertical"
+            android:weightSum="100">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="60">
+                <TextView
+                    android:id="@+id/share_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Do u want to continue to"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="#ff000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/dd"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_weight="5"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/share_offline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/round_layout2"
+                    android:gravity="center_vertical|center_horizontal"
+
+                    android:padding="@dimen/_3sdp"
+                    android:text="Share Offline (apk)"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_17sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dd"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="0"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center">
+
+
+
+               <!-- <Button
+                    android:id="@+id/share_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/rectangle_button"
+                    android:padding="3dp"
+                    android:gravity="center_vertical|center_horizontal"
+
+                    android:text="share onLine (Link)"
+                    android:layout_centerHorizontal="true"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>-->
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dd"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_weight="0"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center">
+
+
+
+                <Button
+                    android:id="@+id/share_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/rounded_button"
+                    android:padding="@dimen/_3sdp"
+                    android:gravity="center_vertical|center_horizontal"
+
+                    android:text="cancel"
+                    android:layout_centerHorizontal="true"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_17sdp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

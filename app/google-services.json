@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "198609881178",
+    "firebase_url": "https://fitit-platform.firebaseio.com",
+    "project_id": "fitit-platform",
+    "storage_bucket": "fitit-platform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198609881178:android:3e27f46da379849c",
+        "android_client_info": {
+          "package_name": "com.abdoul.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198609881178-nlm94nf1lg11gf5ffstsfgqbkmg8b9re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7c2oAknqNORINFpOqqoK1qcTfjAxg6Vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198609881178:android:45bfb9d5b2d11fb4",
+        "android_client_info": {
+          "package_name": "com.abdoulcambridge.ap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198609881178-nlm94nf1lg11gf5ffstsfgqbkmg8b9re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7c2oAknqNORINFpOqqoK1qcTfjAxg6Vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

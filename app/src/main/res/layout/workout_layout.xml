@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white_greyish"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/workout_lay_id"
+       android:orientation="vertical"
+        android:layout_width="match_parent"
+       android:padding="@dimen/_11sdp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/_16sdp"
+            android:text="FitIT Sample Beginners Routine"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:clickable="true"
+android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg_curve"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt1"
+            android:text="Chest and Triceps"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="monday"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="Last:-"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exercise"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:text="6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_toStartOf="@+id/textView3"
+                android:src="@drawable/ic_date_range_black_24dp" />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="= 47mins"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:clickable="true"
+android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg_curve"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt2"
+            android:text="Back, Biceps, and Forearm"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="monday"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="Last:-"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exercise"
+                android:id="@+id/image2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_toEndOf="@+id/image2"
+                android:text="6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_toStartOf="@+id/text3"
+                android:src="@drawable/ic_date_range_black_24dp" />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="= 47mins"
+                android:layout_height="wrap_content"
+                android:id="@+id/text3" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg_curve"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt3"
+            android:text="Shoulders and Legs"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="monday"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="Last:-"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exercise"
+                android:id="@+id/image3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_toEndOf="@+id/image3"
+                android:text="7" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_toStartOf="@+id/text4"
+                android:src="@drawable/ic_date_range_black_24dp" />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="= 47mins"
+                android:layout_height="wrap_content"
+                android:id="@+id/text4" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg_curve"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_10sdp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt4"
+            android:text="Abs"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="monday"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="Last:-"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exercise"
+                android:id="@+id/image4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:layout_toEndOf="@+id/image4"
+                android:text="5" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:layout_toStartOf="@+id/text6"
+                android:src="@drawable/ic_date_range_black_24dp" />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="= 47mins"
+                android:layout_height="wrap_content"
+                android:id="@+id/text6" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>

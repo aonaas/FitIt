@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_15sdp"
+        android:padding="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:padding="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+
+            android:id="@+id/calendarView"
+            android:layout_width="@dimen/_400sdp"
+            android:layout_height="@dimen/_300sdp" />
+
+    </RelativeLayout>
+  <RelativeLayout
+      android:layout_marginTop="@dimen/_5sdp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:background="@android:color/transparent"
+          android:drawableLeft="@drawable/exercise"
+          android:drawablePadding="@dimen/_5sdp"
+          android:text="Exercise logs"
+          android:textAllCaps="false"
+          />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAllCaps="false"
+
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginEnd="@dimen/_10sdp"
+          android:background="@android:color/transparent"
+          android:drawableLeft="@drawable/ic_photo_camera_black_24dp"
+          android:drawablePadding="@dimen/_5sdp"
+          android:text="Progress Photos" />
+  </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/exercise"
+                android:drawablePadding="@dimen/_5sdp"
+                android:text="Body Stats" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/_59sdp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_library_books_black_24dp"
+                android:drawablePadding="@dimen/_5sdp"
+                android:text="Notes" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
