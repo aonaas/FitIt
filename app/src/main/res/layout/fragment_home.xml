@@ -4,7 +4,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:id="@+id/home_container"
-                   tools:context="ng.com.donsoft.fitit.HomeFragment">
+                   tools:context="uk.abdoul.co.fitit.HomeFragment">
 
         <!-- TODO: Update blank fragment layout -->
 

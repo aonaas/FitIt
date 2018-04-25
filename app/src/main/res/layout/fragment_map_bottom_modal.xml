@@ -28,7 +28,7 @@
         android:padding="@dimen/padding_medium"
         app:srcCompat="@drawable/ic_close_black_24dp"/>
 
-    <ng.com.donsoft.fitit.search.DelayAutoCompleteTextView
+    <uk.abdoul.co.fitit.search.DelayAutoCompleteTextView
         android:id="@+id/search_editext"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

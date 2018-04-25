@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="ng.com.donsoft.fitit">
+          package="uk.abdoul.co.fitit">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
-        android:name="ng.com.donsoft.fitit.App"
+        android:name="uk.abdoul.co.uk.abdoul.fitit.App"
         android:allowBackup="true"
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="ng.com.donsoft.fitit.MainActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -28,38 +28,38 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name="ng.com.donsoft.fitit.Home"/>
-        <activity android:name="ng.com.donsoft.fitit.HomeActivity">
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.Home"/>
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name="ng.com.donsoft.fitit.Splash"/>
-        <activity android:name="ng.com.donsoft.fitit.Grid.DetailsActivity"/>
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.Splash"/>
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.Grid.DetailsActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.ScrollableExerciseTabsActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.ScrollableExerciseTabsActivity"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.ScrollableWorkOutTabsActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.ScrollableWorkOutTabsActivity"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.Grid.Exercise_final_dash"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.Grid.Exercise_final_dash"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.SearchActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.SearchActivity"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.Grid.Workout_final_dash"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.Grid.Workout_final_dash"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.firebase.LoginActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.firebase.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -67,35 +67,35 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="ng.com.donsoft.fitit.SecMainActivity"/>
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.SecMainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.firebase.Main"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.firebase.Main"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="ng.com.donsoft.fitit.firebase.SignupActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.firebase.SignupActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="ng.com.donsoft.fitit.firebase.ResetPasswordActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.firebase.ResetPasswordActivity"
             android:label="@string/title_activity_reset_password"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="ng.com.donsoft.fitit.SettingsActivity"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:name="uk.abdoul.co.uk.abdoul.fitit.SettingsActivity"
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.BMI_Calculator"
-            android:parentActivityName="ng.com.donsoft.fitit.MainActivity"/>
+            android:name="uk.abdoul.co.uk.abdoul.fitit.BMI_Calculator"
+            android:parentActivityName="uk.abdoul.co.uk.abdoul.fitit.MainActivity"/>
         <activity
-            android:name="ng.com.donsoft.fitit.SettingsActivity2"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.SettingsActivity2"
             android:label="@string/title_activity_settings2"/>
         <activity
-            android:name="ng.com.donsoft.fitit.calendar.CalendarViewActivity"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.calendar.CalendarViewActivity"
             android:label="@string/app_name"/>
-        <activity android:name="ng.com.donsoft.fitit.calendar.CalendarView"/>
+        <activity android:name="uk.abdoul.co.uk.abdoul.fitit.calendar.CalendarView"/>
 
         <service
-            android:name="ng.com.donsoft.fitit.FirebasePushService"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.FirebasePushService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -103,7 +103,7 @@
             </intent-filter>
         </service>
         <service
-            android:name="ng.com.donsoft.fitit.FirebaseIDService"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.FirebaseIDService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -111,7 +111,7 @@
             </intent-filter>
         </service>
         <service
-            android:name="ng.com.donsoft.fitit.FititNotifica"
+            android:name="uk.abdoul.co.uk.abdoul.fitit.FititNotifica"
             android:enabled="true"
             android:exported="true"/>
 
